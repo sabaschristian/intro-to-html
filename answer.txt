@@ -1,0 +1,22 @@
+1. Identify all the HTML tags in the code snippet, their names and what they are for.
+
+<p>tag: specifies text alignment within a paragraph.
+<em>tag: is defined as emphasized text.
+<a>tag: is a hyperlink, used to link from one page to another.
+<strong>tag: is defined as bold text.
+<blockqoute>tag: specifies a section that qouted from another source.
+<br />tag: is a self closing tag which make a new line in html file or what we called break line.
+
+2. Some HTML tags don't contain any content, and instead are known as void elements, also called self-closing tags. Which tag/tags is a void element?
+
+<br />tag is a void element.
+
+3. HTML tags can be nested, which means that one tag can be put inside another. Which tags in the code snippet are nested? Don't include any self-closing tags.
+
+the <p>tag is nested it because it has <em>, <a> and <strong> tag.
+
+4. Visit this link https://validator.w3.org/#validate_by_input  Links to an external site.and paste the HTML markup above. What errors/warnings did you get?
+
+It has no lang attribute which it declares the language of the document.
+Also, it has no <!DOCTYPE html> which is highly required in html.
+It has no head element and title element.
